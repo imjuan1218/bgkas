@@ -164,7 +164,7 @@ train_50_df = df_clean[(df_clean["연도"] >= 1956) & (df_clean["연도"] <= 200
 train_100_df = df_clean[(df_clean["연도"] >= 1906) & (df_clean["연도"] <= 2005)]
 
 # 3. 모델 학습 및 평가 함수
-def evaluate_linear_model(train_data, eval_data, model_name="Model"): dla
+def evaluate_linear_model(train_data, eval_data, model_name="Model"): 
     X_train = train_data[["연도"]]
     y_train = train_data["평균기온"]
     
