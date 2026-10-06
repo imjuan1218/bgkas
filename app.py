@@ -130,6 +130,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 # 1. 데이터 로드 및 정제
 url = "https://raw.githubusercontent.com/greatsong/modudata/bb860932644270ad1199f10d3e7670e30231bce4/data/seoul.csv"
 df = pd.read_csv(url, encoding="utf-8")
